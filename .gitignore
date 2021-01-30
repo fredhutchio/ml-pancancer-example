@@ -1,0 +1,8 @@
+**.DS_Store
+**.Rproj.user
+**.Rhistory
+**.RData
+**.Ruserdata
+data/metadata.csv
+data/genes.csv
+data/*genes.csv
