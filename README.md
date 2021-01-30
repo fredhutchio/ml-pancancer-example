@@ -10,6 +10,9 @@ This is an introduction to Data Science and Machine Learning techniques focus on
 * Intermediate
 * Advanced
 
-The project assumes some knowledge or experience with **python** or **R**, but will show and walk-through 
-data analysis process with the use of the [gene expression cancer RNA-Seq Data Set](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq#).
+The project assumes some knowledge or experience with **python** or **R**,
+but will show and walk through the
+data analysis process.
+To access the data,
+please see the [data README](data/).
 
