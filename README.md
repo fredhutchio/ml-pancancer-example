@@ -42,7 +42,7 @@ We Focus on:
 By the end of the tutorial you will be familiar with dealing with data and creating charts 
 for your research and data analysis like these:
 
-![seaborn_fig](Gene_expression_seaborn.gif "seaborn")
+![seaborn_fig](Gene_expression_seaborn.png "seaborn")
 ![altair_fig](Gene_expression_altair.gif "segment")
 
 ## Intermediate Tutorial Notebook
