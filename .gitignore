@@ -6,3 +6,4 @@
 data/metadata.csv
 data/genes.csv
 data/*genes.csv
+.Rproj.user
