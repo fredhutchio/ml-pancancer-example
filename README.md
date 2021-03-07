@@ -1,5 +1,31 @@
 # ml-pancancer-example
 
+# Directory Structure
+```bash
+├── ml-pancancer-example
+│   ├── .ipynb_checkpoints
+│   ├── 1-Data
+│   │   ├── README.md
+│   │   ├── data_compile.R
+│   │   ├── data_filter.R
+│   │   ├── ml-genomics.Rproj
+│   ├── 2-Tutorials
+│   │   ├── Tutorial 1 - Beginner.ipynb
+│   │   ├── Tutorial 2 - Intermediate.ipynb
+│   │   ├── Tutorial 3 - Expert.ipynb
+│   ├── 3-Outputs
+│   │   ├── fig1
+│   │   ├── fig2
+│   │   ├── fig3
+│   │   ├── fig4
+│   │   ├── fig5
+│   ├── .gitignore
+│   ├── README.md
+│   └── environment.yml
+└── .gitignore
+```
+
+
 ## Description
 
 **Data Science and Machine Learning with PANCANCER data – example**
