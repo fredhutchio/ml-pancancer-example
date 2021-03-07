@@ -51,8 +51,10 @@ but will show and walk through the
 data analysis process. Each of the tutorials are developed to stand on their own, meaning you could jump into the
 tutorial notebook you are interested in, but it is highly encourage to start from the _Beginner_ tutorial and move
 through each in progression.
-To access the data,
-please see the [1-Data README](1-Data/).
+
+___NOTE:___ The TCGA Data file is too large to host in github. To access the data, please see the Data directory
+[README](1-Data/) to know where to download data. Once locally downloaded _data.csv_ and _metadata.csv_, store them
+in the "1-Data" local folder to run the code in the tutorials. 
 
 ## _Beginner_ Notebook Tutorial
 
