@@ -19,7 +19,7 @@
 │   │   ├── etc
 │   ├── .gitignore
 │   ├── README.md
-│   └── environment.yml
+│   └── requirements.yml
 └── .gitignore
 ```
 
