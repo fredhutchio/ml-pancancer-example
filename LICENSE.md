@@ -4,9 +4,9 @@
 
 All fredhutch.io instructional material is
 made available under the [Creative Commons Attribution
-license][cc-by-human]. The following is a human-readable summary of
+license](https://creativecommons.org/licenses/by/4.0/). The following is a human-readable summary of
 (and not a substitute for) the [full legal text of the CC BY 4.0
-license][cc-by-legal].
+license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 You are free:
 
@@ -22,7 +22,7 @@ Under the following terms:
 
 * **Attribution**---You must give appropriate credit (mentioning that
   your work is derived from work that is Copyright © fredhutch.io and, where practical, linking to
-  http://www.fredhutch.io), provide a [link to the
+  [http://www.fredhutch.io](http://www.fredhutch.io/)), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
@@ -45,8 +45,8 @@ Notices:
 
 Except where otherwise noted, the example programs and other software
 provided by fredhutch.io are made available under the
-[OSI][osi]-approved
-[MIT license][mit-license].
+[OSI](https://opensource.org/)-approved
+[MIT license](https://opensource.org/licenses/mit-license.html).
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
