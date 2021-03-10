@@ -1,5 +1,9 @@
 # ml-pancancer-example
 
+This repository includes resources and examples for scientific researchers interested in improving their coding, data analytics, and machine learning skills. These materials are maintained by the training and community team at Fred Hutchinson Cancer Research Center and were develop in collaboration with a team of graduate students in the UW Master's in Data Science (MSDS) program as part of their Capstone project.
+
+This repository focuses on data from the [gene count TCGA Data Set](https://www.dropbox.com/sh/jke9h4km90ner9l/AAD1UyucvlXIFbKTjl-D15U6a?dl=0) and utilizes python as a primary delevolpment tool, but the material and ideas are universal and should be able to transfer to R with the appropriate code changes.
+
 # Directory Structure
 ```bash
 ├── ml-pancancer-example
@@ -53,6 +57,60 @@ through each in progression.
 ___NOTE:___ The TCGA Data file is too large to host in github. To access the data, please see the Data directory
 [README](1-Data/) to know where to download data. Once locally downloaded _data.csv_ and _metadata.csv_, store them
 in the "1-Data" local folder to run the code in the tutorials. 
+
+----
+
+# If you want to run these notebooks yourself follow these steps:
+## Step 1.
+clone this repo
+
+## Step 2.
+clone [this](https://github.com/fredhutchio/ml-pancancer-example) repo in the same
+directory (i.e., as a sibling directory to this repository).
+
+## Step 3.
+Warning! The tutorials make reference to `../../genes.csv` and `../../metadata.csv`, neither available
+directly in this repo. You need to go to the [1-Data](https://github.com/fredhutchio/ml-pancancer-example/tree/main/1-Data) 
+directory and follow the instruction to download both files locally as they are quite large
+to store in this gitrepo.
+
+## Step 4.
+Ensure your [environment](https://github.com/fredhutchio/ml-pancancer-example/blob/main/requirements.yml) has
+the following package dependencies installed (you can use `pip install` or `conda`):
+
+```
+dependencies:
+  - altair=4.1.0=py_1
+  - jupyter=1.0.0=py37_7
+  - jupyter_client=6.1.3=py_0
+  - jupyter_console=6.1.0=py_0
+  - jupyter_core=4.6.3=py37_0
+  - markdown=3.1.1=py37_0
+  - matplotlib=3.1.3=py37_0
+  - matplotlib-base=3.1.3=py37hef1b27d_0
+  - numpy=1.18.1=py37h4f9e942_0
+  - numpy-base=1.18.1=py37hde5b4d6_1
+  - pandas=1.0.3=py37h0573a6f_0
+  - pip=20.0.2=py37_3
+  - python=3.7.7=h191fe78_0_cpython
+  - python-dateutil=2.8.1=py_0
+  - python_abi=3.7=1_cp37m
+  - scikit-learn=0.22.1=py37hd81dba3_0
+  - scipy=1.4.1=py37h0b6359f_0
+  - statsmodels=0.11.1=py37h8f50634_2
+  - seaborn==0.11.1
+
+```
+
+
+## Step 5.
+You can now follow along the tutorial. We recommend starting with 
+[Tutorial 1 - Beginner](https://github.com/fredhutchio/ml-pancancer-example/blob/main/2-Tutorials/Tutorial%201%20-%20Beginner.ipynb),
+as there are some references to some findings in the later tutorials, but you should be
+able to follow along with any tutorial you decide to jump into.
+
+----
+
 
 ## _Beginner_ Notebook Tutorial
 
@@ -147,3 +205,11 @@ machine learning models such as:
 
 * K-Means
 ![kmeans_fig](3-Outputs/Kmeans_Cluster.png "kmeans")
+
+
+## Team
+
+This project was developed by the following team of graduate students in the UW Master's in Data Science (MSDS) program:
+
+- [Andres De La Fuente](https://github.com/Oponn-1)
+- [Juan Solorio](https://github.com/JUAN-SOLORIO)

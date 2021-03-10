@@ -1,3 +1,7 @@
+name: ml-pancan-example
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - altair=4.1.0=py_1
   - jupyter=1.0.0=py37_7
