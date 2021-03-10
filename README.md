@@ -16,9 +16,7 @@
 │   ├── 3-Outputs
 │   │   ├── fig1
 │   │   ├── fig2
-│   │   ├── fig3
-│   │   ├── fig4
-│   │   ├── fig5
+│   │   ├── etc
 │   ├── .gitignore
 │   ├── README.md
 │   └── environment.yml
@@ -141,3 +139,11 @@ In this notebook we will be focusing specifically on Machine Learning modeling i
 * Fundamental categories of models
 * Some specific examples with regression and clustering ML models.
 
+By the end of this tutorial you will be familiarized with general theory and concepts for implementing and analyzing
+machine learning models in python. You will be able to use the *sklearn* library funtions to analyze data and perform
+machine learning models such as:
+* Random Forest
+![randomforest_fig](3-Outputs/rForest_Decision_space.png "randomforest")
+
+* K-Means
+![kmeans_fig](3-Outputs/Kmeans_Cluster.png "kmeans")
