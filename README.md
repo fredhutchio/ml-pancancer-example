@@ -22,6 +22,7 @@ This repository focuses on data from the [gene count TCGA Data Set](https://www.
 │   │   ├── fig2
 │   │   ├── etc
 │   ├── .gitignore
+│   ├── LICENSE.md
 │   ├── README.md
 │   └── requirements.yml
 └── .gitignore
