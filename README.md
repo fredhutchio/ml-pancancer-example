@@ -74,7 +74,7 @@ directory (i.e., as a sibling directory to this repository).
 ## Step 3.
 Warning! The tutorials make reference to `../../genes.csv` and `../../metadata.csv`, neither available
 directly in this repo. You need to go to the [1-Data](https://github.com/fredhutchio/ml-pancancer-example/tree/main/1-Data) 
-directory and follow the instruction to download both files locally as they are quite large
+directory and follow the instruction to download the data files locally as they are quite large
 to store in this gitrepo.
 
 ## Step 4.
@@ -117,7 +117,7 @@ able to follow along with any tutorial you decide to jump into.
 
 ## _Beginner_ Notebook Tutorial
 
-In this notebook we will work through the process of data analysis for the [gene expression cancer RNA-Seq Data Set](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq#)
+In this notebook we will work through the process of data analysis for the [UCI gene expression cancer RNA-Seq Data Set](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq#)
 and the genomic count data obtained from the [TCGA projects from the National Cancer Institute's Genomic Data Commons](https://www.dropbox.com/sh/jke9h4km90ner9l/AAD1UyucvlXIFbKTjl-D15U6a?dl=0). 
 This is the beginner or novice notebook and we will focus on general data cleanup, manipulation, and 
 analysis techniques for the _data science process_ in python.
