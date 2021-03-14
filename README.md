@@ -72,7 +72,7 @@ clone [this](https://github.com/fredhutchio/ml-pancancer-example) repo in the sa
 directory (i.e., as a sibling directory to this repository).
 
 ## Step 3.
-Warning! The tutorials make reference to `../../genes.csv` and `../../metadata.csv`, neither available
+Warning! The tutorials make reference to `../1-Data/data.csv`, `../1-Data/genes.csv` and `../1-Data/metadata.csv`, which are not available
 directly in this repo. You need to go to the [1-Data](https://github.com/fredhutchio/ml-pancancer-example/tree/main/1-Data) 
 directory and follow the instruction to download the data files locally as they are quite large
 to store in this gitrepo.
@@ -167,6 +167,12 @@ This is the intermediate notebook and we will  focusing specifically on statisti
 
 By the end of the tutorial, you will be familiar with dealing with best practices in developing and performing
 statistical hypothesis tests for research, how to implement statistical python libraries, and how to interpret results.
+* Checking _Validity_ of a specific hypothesis test:
+![t_test](3-Outputs/kirc_ttest_valid.png "t_test")
+
+* Interpreting hypothesis test results:
+![anova_table](3-Outputs/anova_table_results.png "anova_table")
+
 
 ## _Expert_ Tutorial Notebook
 
