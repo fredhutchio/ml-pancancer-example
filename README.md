@@ -2,7 +2,7 @@
 
 This repository includes resources and examples for scientific researchers interested in improving their coding, data analytics, and machine learning skills. These materials are maintained by the training and community team at Fred Hutchinson Cancer Research Center and were develop in collaboration with a team of graduate students in the UW Master's in Data Science (MSDS) program as part of their Capstone project.
 
-This repository focuses on data from the [gene count TCGA Data Set](https://www.dropbox.com/sh/jke9h4km90ner9l/AAD1UyucvlXIFbKTjl-D15U6a?dl=0) and utilizes python as a primary delevolpment tool, but the material and ideas are universal and should be able to transfer to R with the appropriate code changes.
+This repository focuses on data from the both the [UCI gene expression cancer RNA-Seq Data Set](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq#) and the [gene count TCGA Data Set](https://www.dropbox.com/sh/jke9h4km90ner9l/AAD1UyucvlXIFbKTjl-D15U6a?dl=0) and utilizes python as a primary delevolpment tool, but the material and ideas are universal and should be able to transfer to R with the appropriate code changes.
 
 # Directory Structure
 ```bash
@@ -56,8 +56,10 @@ tutorial notebook you are interested in, but it is highly encourage to start fro
 through each in progression.
 
 ___NOTE:___ The TCGA Data file is too large to host in github. To access the data, please see the Data directory
-[README](1-Data/) to know where to download data. Once locally downloaded _data.csv_ and _metadata.csv_, store them
+[README](1-Data/) to know where to download data. Once locally downloaded _genes.csv_ and _metadata.csv_, store them
 in the "1-Data" local folder to run the code in the tutorials. 
+We also use the start the beginner tutorial using the _UCI gene expression_ data, and should also be locally downloaded and
+store in the _1-Data_ directory.
 
 ----
 
